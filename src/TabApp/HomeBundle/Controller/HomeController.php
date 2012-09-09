@@ -6,8 +6,8 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class HomeController extends Controller
 {
-    public function anonymousAction()
+    public function homepageAction()
     {
-        return $this->render('TabAppHomeBundle:Home:anonymous.html.twig');
+        return $this->render('TabAppHomeBundle:Home:default.html.twig');
     }
 }
