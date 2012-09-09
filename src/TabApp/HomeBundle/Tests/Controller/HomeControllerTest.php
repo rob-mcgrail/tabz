@@ -4,7 +4,7 @@ namespace TabApp\HomeBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
-class DefaultControllerTest extends WebTestCase
+class HomeControllerTest extends WebTestCase
 {
     public function testIndex()
     {
