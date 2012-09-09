@@ -182,7 +182,9 @@
             "commit-date": "1347025342"
         }
     ],
-    "packages-dev": null,
+    "packages-dev": [
+
+    ],
     "aliases": [
 
     ],

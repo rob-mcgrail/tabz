@@ -1,3 +1,8 @@
+Run tests:
+
+phpunit -c app/
+
+
 Symfony Standard Edition
 ========================
 
