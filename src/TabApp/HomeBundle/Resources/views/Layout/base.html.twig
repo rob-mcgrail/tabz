@@ -16,7 +16,9 @@
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-    <link rel="stylesheet" href="/css/style.css?v=2">
+    <link rel="stylesheet" href="/css/base.css?v=2">
+    <link rel="stylesheet" href="/css/layout.css?v=2">
+    <link rel="stylesheet" href="/css/skeleton.css?v=2">
 
     <script src="/js/vendor/modernizr-1.7.min.js"></script>
 
@@ -25,14 +27,14 @@
 
 <body>
 
-  <div id="container">
-    <header>
+  <div id="container" class="container">
+    <header class="sixteen columns">
       {% block header %}{% endblock %}
     </header>
-    <div id="main" role="main">
+    <div id="main" role="main" class="sixteen columns">
       {% block main %}{% endblock %}
     </div>
-    <footer>
+    <footer class="sixteen columns">
       {% block footer %}{% endblock %}
     </footer>
   </div> <!-- eo #container -->
