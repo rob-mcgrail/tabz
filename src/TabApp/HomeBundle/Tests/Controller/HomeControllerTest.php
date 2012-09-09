@@ -12,6 +12,10 @@ class HomeControllerTest extends WebTestCase
 
         $crawler = $client->request('GET', '/');
 
-        $this->assertTrue($crawler->filter('html:contains("Hi want some tabs??")')->count() > 0);
+        $outcome = $crawler->filter('html:contains("Hi want some tabs??")');
+
+        $outcome = $outcome->count() > 0;
+
+        $this->assertTrue($outcome);
     }
 }
