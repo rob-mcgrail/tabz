@@ -1,0 +1,7 @@
+parameters:
+#    tab_app_home.example.class: TabApp\HomeBundle\Example
+
+services:
+#    tab_app_home.example:
+#        class: %tab_app_home.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

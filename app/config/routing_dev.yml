@@ -1,15 +1,6 @@
-_welcome:
-    pattern:  /
-    defaults: { _controller: AcmeDemoBundle:Welcome:index }
+_main:
+    resource: routing.yml
 
-_demo_secured:
-    resource: "@AcmeDemoBundle/Controller/SecuredController.php"
-    type:     annotation
-
-_demo:
-    resource: "@AcmeDemoBundle/Controller/DemoController.php"
-    type:     annotation
-    prefix:   /demo
 
 _wdt:
     resource: "@WebProfilerBundle/Resources/config/routing/wdt.xml"
@@ -22,6 +13,3 @@ _profiler:
 _configurator:
     resource: "@SensioDistributionBundle/Resources/config/routing/webconfigurator.xml"
     prefix:   /_configurator
-
-_main:
-    resource: routing.yml

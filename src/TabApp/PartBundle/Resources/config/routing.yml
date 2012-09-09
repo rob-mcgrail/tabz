@@ -1,0 +1,3 @@
+tab_app_part_homepage:
+    pattern:  /thing
+    defaults: { _controller: TabAppPartBundle:Default:index }
